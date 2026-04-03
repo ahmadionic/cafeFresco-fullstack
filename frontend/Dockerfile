@@ -7,8 +7,8 @@ RUN npm install
 
 COPY . .
 
-# Use npx to build inside container
+# Build frontend
 RUN npx vite build
 
 EXPOSE 3000
-CMD ["npm", "run", "preview"]  # or "start" if custom server
+CMD ["npx", "vite", "preview", "--host", "0.0.0.0"]  # preview mode for container
