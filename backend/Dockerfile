@@ -8,4 +8,4 @@ RUN npm install
 COPY . .
 
 EXPOSE 5000
-CMD ["npm", "start"]
+CMD ["npm", "start"]  # ensure backend start command correct ho
