@@ -1,4 +1,12 @@
 {
+  "name": "cafefresco-backend",
+  "version": "1.0.0",
+  "description": "Backend for CafeFresco fullstack app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "axios": "^1.7.9",
     "bcrypt": "^5.1.1",
@@ -20,5 +28,7 @@
     "path": "^0.12.7",
     "stripe": "^17.6.0",
     "validator": "^13.12.0"
-  }
+  },
+  "author": "Ubuntu",
+  "license": "ISC"
 }
