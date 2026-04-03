@@ -1,0 +1,20 @@
+select {
+    width: 250px;
+    background-color: white;
+    /* border: 2px solid #FBBE17; */
+    border-radius: 8px;
+    color: black;
+
+}
+
+/* Works: styles the selected option */
+option:checked,
+option:focus {
+    background-color: #FBBE17;
+    color: black;
+}
+
+select.form-select {
+    border-radius: 16px !important;
+    border:1px solid gray !important,
+}
