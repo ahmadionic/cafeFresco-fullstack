@@ -7,7 +7,8 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build
+# Use npx to build inside container
+RUN npx vite build
 
 EXPOSE 3000
-CMD ["npm", "start"]
+CMD ["npm", "run", "preview"]  # or "start" if custom server
