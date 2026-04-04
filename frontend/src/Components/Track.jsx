@@ -1,4 +1,4 @@
-import './CSS/wishlist.css';
+import './CSS/Wishlist.css';
 import { useContext, useEffect, useState } from 'react';
 import productContext from '../Context/ProductContext';
 import { useNavigate } from 'react-router-dom';
